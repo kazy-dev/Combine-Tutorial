@@ -10,7 +10,7 @@ import SwiftUI
 
 struct TopListData: Identifiable {
     
-    enum Presentation: View {
+    enum Presentation: View, Hashable, Identifiable {
         case combine1
 
         var body: some View {

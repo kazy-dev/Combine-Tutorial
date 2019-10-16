@@ -18,6 +18,7 @@
 		5AEAF1382356F0790020A5ED /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF1372356F0790020A5ED /* TopViewModel.swift */; };
 		5AEAF13B2356F0D30020A5ED /* Combine1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF13A2356F0D30020A5ED /* Combine1.swift */; };
 		5AEAF13F2356F5770020A5ED /* Combine-Tutorial-LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AEAF13E2356F5770020A5ED /* Combine-Tutorial-LOGO.png */; };
+		5AEAF1422356F6720020A5ED /* Identifiable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF1412356F6720020A5ED /* Identifiable+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		5AEAF1372356F0790020A5ED /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
 		5AEAF13A2356F0D30020A5ED /* Combine1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine1.swift; sourceTree = "<group>"; };
 		5AEAF13E2356F5770020A5ED /* Combine-Tutorial-LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Combine-Tutorial-LOGO.png"; sourceTree = "<group>"; };
+		5AEAF1412356F6720020A5ED /* Identifiable+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Identifiable+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				5AEAF1032356ED7C0020A5ED /* AppDelegate.swift */,
 				5AEAF1052356ED7C0020A5ED /* SceneDelegate.swift */,
 				5AEAF10B2356ED7D0020A5ED /* Preview Content */,
+				5AEAF1402356F6720020A5ED /* Extensions */,
 				5AEAF13C2356F1BB0020A5ED /* Resources */,
 				5AEAF1352356EDB10020A5ED /* SupportingFile */,
 				5AEAF1332356ED8E0020A5ED /* Views */,
@@ -199,6 +202,14 @@
 				5AEAF13E2356F5770020A5ED /* Combine-Tutorial-LOGO.png */,
 			);
 			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		5AEAF1402356F6720020A5ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5AEAF1412356F6720020A5ED /* Identifiable+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +349,7 @@
 				5AEAF13B2356F0D30020A5ED /* Combine1.swift in Sources */,
 				5AEAF1062356ED7C0020A5ED /* SceneDelegate.swift in Sources */,
 				5AEAF1082356ED7C0020A5ED /* TopView.swift in Sources */,
+				5AEAF1422356F6720020A5ED /* Identifiable+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

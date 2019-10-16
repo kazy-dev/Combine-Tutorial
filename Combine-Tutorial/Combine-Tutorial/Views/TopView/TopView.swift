@@ -16,7 +16,7 @@ struct TopView: View {
         NavigationView {
             HStack {
                 VStack {
-                    Image("Combine_tutorial")
+                    Image("combine_tutorial")
                         .resizable()
                         .frame(width: 120*10/4, height: 120)
                         .aspectRatio(10/4, contentMode: .fit)
