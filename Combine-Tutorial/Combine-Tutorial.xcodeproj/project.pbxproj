@@ -16,9 +16,10 @@
 		5AEAF11B2356ED7D0020A5ED /* Combine_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF11A2356ED7D0020A5ED /* Combine_TutorialTests.swift */; };
 		5AEAF1262356ED7D0020A5ED /* Combine_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF1252356ED7D0020A5ED /* Combine_TutorialUITests.swift */; };
 		5AEAF1382356F0790020A5ED /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF1372356F0790020A5ED /* TopViewModel.swift */; };
-		5AEAF13B2356F0D30020A5ED /* Combine1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF13A2356F0D30020A5ED /* Combine1.swift */; };
+		5AEAF13B2356F0D30020A5ED /* Combine1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF13A2356F0D30020A5ED /* Combine1View.swift */; };
 		5AEAF13F2356F5770020A5ED /* Combine-Tutorial-LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AEAF13E2356F5770020A5ED /* Combine-Tutorial-LOGO.png */; };
 		5AEAF1422356F6720020A5ED /* Identifiable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF1412356F6720020A5ED /* Identifiable+.swift */; };
+		5AEAF14423571D490020A5ED /* Combine2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAF14323571D490020A5ED /* Combine2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +55,10 @@
 		5AEAF1252356ED7D0020A5ED /* Combine_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_TutorialUITests.swift; sourceTree = "<group>"; };
 		5AEAF1272356ED7D0020A5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AEAF1372356F0790020A5ED /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
-		5AEAF13A2356F0D30020A5ED /* Combine1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine1.swift; sourceTree = "<group>"; };
+		5AEAF13A2356F0D30020A5ED /* Combine1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine1View.swift; sourceTree = "<group>"; };
 		5AEAF13E2356F5770020A5ED /* Combine-Tutorial-LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Combine-Tutorial-LOGO.png"; sourceTree = "<group>"; };
 		5AEAF1412356F6720020A5ED /* Identifiable+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Identifiable+.swift"; sourceTree = "<group>"; };
+		5AEAF14323571D490020A5ED /* Combine2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +150,8 @@
 		5AEAF1332356ED8E0020A5ED /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5AEAF1392356F0B60020A5ED /* Combine1 */,
+				5AEAF1392356F0B60020A5ED /* Combine1View */,
+				5AEAF14523571D4E0020A5ED /* Combine2View */,
 				5AEAF1342356EDA00020A5ED /* TopView */,
 			);
 			path = Views;
@@ -180,12 +183,12 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		5AEAF1392356F0B60020A5ED /* Combine1 */ = {
+		5AEAF1392356F0B60020A5ED /* Combine1View */ = {
 			isa = PBXGroup;
 			children = (
-				5AEAF13A2356F0D30020A5ED /* Combine1.swift */,
+				5AEAF13A2356F0D30020A5ED /* Combine1View.swift */,
 			);
-			path = Combine1;
+			path = Combine1View;
 			sourceTree = "<group>";
 		};
 		5AEAF13C2356F1BB0020A5ED /* Resources */ = {
@@ -210,6 +213,14 @@
 				5AEAF1412356F6720020A5ED /* Identifiable+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5AEAF14523571D4E0020A5ED /* Combine2View */ = {
+			isa = PBXGroup;
+			children = (
+				5AEAF14323571D490020A5ED /* Combine2View.swift */,
+			);
+			path = Combine2View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,8 +356,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AEAF1382356F0790020A5ED /* TopViewModel.swift in Sources */,
+				5AEAF14423571D490020A5ED /* Combine2View.swift in Sources */,
 				5AEAF1042356ED7C0020A5ED /* AppDelegate.swift in Sources */,
-				5AEAF13B2356F0D30020A5ED /* Combine1.swift in Sources */,
+				5AEAF13B2356F0D30020A5ED /* Combine1View.swift in Sources */,
 				5AEAF1062356ED7C0020A5ED /* SceneDelegate.swift in Sources */,
 				5AEAF1082356ED7C0020A5ED /* TopView.swift in Sources */,
 				5AEAF1422356F6720020A5ED /* Identifiable+.swift in Sources */,

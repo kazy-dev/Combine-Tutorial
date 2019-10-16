@@ -12,10 +12,12 @@ struct TopListData: Identifiable {
     
     enum Presentation: View, Hashable, Identifiable {
         case combine1
-
+        case combine2
+        
         var body: some View {
             switch self {
-            case .combine1: return AnyView(Combine1())
+            case .combine1: return AnyView(Combine1View())
+            case .combine2: return AnyView(Combine2View())
             }
         }
     }
@@ -26,5 +28,6 @@ struct TopListData: Identifiable {
 }
 
 class TopViewModel: ObservableObject {
-    @Published var list: [TopListData] = [TopListData(title: "Combine1", presentType: .combine1)]
+    @Published var list: [TopListData] = [TopListData(title: "Combine1", presentType: .combine1),
+                                          TopListData(title: "Combine2", presentType: .combine2)]
 }
